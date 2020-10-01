@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.header {
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.puntos {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1.5rem;
+}
+
+.nav a:hover {
+  text-decoration: underline black;
+}
+
+.avatar img {
+  border-radius: 5rem;
+}
+
+.main {
+  margin-top: 14.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.busqueda {
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+  height: 4.6rem;
+  margin-top: 2.2rem;
+  padding: 1rem 2rem;
+  border: 0.1rem solid #dfe1e5;
+  border-radius: 3rem;
+}
+
+.busqueda:hover {
+  box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+}
+
+.icono-lupa {
+  background-position: center;
+  background-size: contain;
+}
+
+.texto-busqueda {
+  width: 50rem;
+  outline-style: none;
+  border: white;
+  font-size: 1.7rem;
+}
+
+.icono-micro {
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.botones button {
+  background-color: #f2f2f2;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  padding: 11px 1.7rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #5f6368;
+  font-size: 1.45rem;
+}
+
+.botones button:hover {
+  border: 0.05rem solid #c6c6c6;
+  color: black;
+}
+
+.idiomas {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.idiomas a {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.idiomas a:hover {
+  text-decoration: underline #1a0dab;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-pais {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 3rem;
+  border: 0.05rem solid #e4e4e4;
+  background-color: #f2f2f2;
+}
+
+.footer-pais p {
+  color: #6f6f6f;
+  font-size: 1.45rem;
+}
+
+.footer-opciones {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 3rem;
+  border: 0.05rem solid #e4e4e4;
+  background-color: #f2f2f2;
+}
+
+.footer-opciones a {
+  color: #6f6f6f;
+  font-size: 1.45rem;
+  text-decoration: none;
+  padding-left: 3rem;
+}
+
+.footer-opciones a:hover {
+  text-decoration: underline #6f6f6f;
+}
